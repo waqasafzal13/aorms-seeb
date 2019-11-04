@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PENTAGONE</string>
+    <string name="monthly_sales_report">Monthly Sales Report</string>
+    <string name="daily_sales_report">Daily Sales Report</string>
+    <string name="start_date">start_date</string>
+    <string name="end_date">end date</string>
+    <string name="bar_chart">BAR CHART</string>
+    <string name="table">TABLE</string>
+    <string name="profit_profit">Profit Profit</string>
+</resources>
