@@ -1,10 +1,67 @@
 <resources>
-    <string name="app_name">PENTAGONE</string>
-    <string name="monthly_sales_report">Monthly Sales Report</string>
-    <string name="daily_sales_report">Daily Sales Report</string>
-    <string name="start_date">start_date</string>
-    <string name="end_date">end date</string>
-    <string name="bar_chart">BAR CHART</string>
-    <string name="table">TABLE</string>
-    <string name="profit_profit">Profit Profit</string>
+    <string name="app_name">Kitchen Management</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="graph_type">
+        <item>Graph Type</item>
+        <item>Line</item>
+        <item>Bar</item>
+
+    </string-array>
+    <string-array name="template_type">
+        <item>Tubewells</item>
+        <item>Disposals</item>
+        <item>DisposalShaukatKhanamSet2</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="resource">
+        <item>Johar Town C2</item>
+        <item>PumpSet1</item>
+        <item>PumpSet2</item>
+        <item>Johar Town A3</item>
+        <item>Johar Town D2</item>
+        <item>Johar Town E</item>
+        <item>Johar Town Campus View</item>
+        <item>Johar Town F1</item>
+        <item>Jubliee Town C</item>
+        <item>All</item>
+    </string-array>
+
+    <string-array name="parameter">
+        <item>V1N.</item>
+        <item>V2N.</item>
+        <item>V3N.</item>
+        <item>l1.</item>
+        <item>l2.</item>
+        <item>l3.</item>
+        <item>Frequency.</item>
+        <item>PKVA.</item>
+        <item>PF.</item>
+        <item>AutoModeOn.</item>
+        <item>Pump Status.</item>
+
+        <item>CurrentTrip.</item>
+        <item>VoltageTrip.</item>
+        <item>RemoteControl.</item>
+        <item>ChlorineLevel.</item>
+        <item>WaterExtracted.</item>
+        <item>PKVAR.</item>
+        <item>PKW.</item>
+        <item>PumpStatus1.</item>
+        <item>PumpStatus2.</item>
+        <item>PumpStatus3.</item>
+        <item>PumpStatus4.</item>
+        <item>PumpStatus5.</item>
+        <item>PumpStatus6.</item>
+        <item>PumpStatus7.</item>
+        <item>PumpStatus8.</item>
+        <item>PumpStatus9.</item>
+        <item>PumpStatuss10.</item>
+        <item>All</item>
+
+    </string-array>
+
 </resources>
