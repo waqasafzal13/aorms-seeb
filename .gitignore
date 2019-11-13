@@ -1,8 +1,4 @@
 # Built application files
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2ff00596d135d6cbcfc66d32174d8f36c4e42530
 *.apk
 *.ap_
 *.aab
@@ -85,9 +81,4 @@ lint/intermediates/
 lint/generated/
 lint/outputs/
 lint/tmp/
-<<<<<<< HEAD
-=======
->>>>>>> 49210caece62b95618dd110afcf032a7ebbc0c2d
-=======
->>>>>>> 2ff00596d135d6cbcfc66d32174d8f36c4e42530
 # lint/reports/

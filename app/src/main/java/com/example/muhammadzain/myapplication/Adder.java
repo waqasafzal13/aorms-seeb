@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Adder extends AppCompatActivity {
-    Button Btn1, Btn2, Btn3,owner,customer;
+    Button Btn1, Btn2, Btn3,owner,customer,hall_manager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,6 +54,15 @@ public class Adder extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Adder.this, MusaMainActivity.class);
+                startActivity(i);
+            }
+        });
+
+        hall_manager=findViewById(R.id.hall_manager);
+        hall_manager.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Adder.this, Table_Availability.class);
                 startActivity(i);
             }
         });

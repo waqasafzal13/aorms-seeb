@@ -17,6 +17,8 @@
         <activity android:name=".ReportPage" />
         <activity android:name=".AddUser" />
         <activity android:name=".Login" />
+        <activity android:name=".Table_Availability" />
+        <activity android:name=".Billgenerate" />
         <activity android:name=".Adder">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
