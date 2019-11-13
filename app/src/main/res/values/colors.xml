@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">#43100D</color>
     <color name="colorAccent">#D81B60</color>
+<<<<<<< HEAD
     <color name="orange">#620301</color>
     <color name="orange1">#673AB7</color>
     <color name="white">#FCFCFC</color>
     <color name="black">#020000</color>
    <color name="green_teal_600">#00897B</color>
     <color name="green_teal_700">#00796B</color>
+=======
+    <color name="colorPrimaryDark">#431022</color>FDFDFE
+    <color name="white">#FDFDFE</color>
+>>>>>>> 313667b078b4f0522d5c97c2ce4a8152caffb40d
 </resources>

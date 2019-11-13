@@ -1,1 +1,3 @@
 include ':app'
+rootProject.name='PENTAGONE'
+include ':libs:picasso-master'
