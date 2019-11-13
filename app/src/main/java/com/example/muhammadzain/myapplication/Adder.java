@@ -1,13 +1,14 @@
 package com.example.muhammadzain.myapplication;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class Adder extends AppCompatActivity {
-    Button Btn1, Btn2, Btn3;
+    Button Btn1, Btn2, Btn3,owner;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +36,15 @@ public class Adder extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Adder.this, Login.class);
+                startActivity(i);
+            }
+        });
+
+        owner=findViewById(R.id.owner);
+        owner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Adder.this, ReportPage.class);
                 startActivity(i);
             }
         });

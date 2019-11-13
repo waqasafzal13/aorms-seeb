@@ -1,9 +1,9 @@
-package com.waqas.pentagone;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.muhammadzain.myapplication;
 
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.components.Description;
@@ -14,6 +14,7 @@ import com.github.mikephil.charting.utils.ColorTemplate;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class GraphActivity extends AppCompatActivity {
 
@@ -26,9 +27,13 @@ public class GraphActivity extends AppCompatActivity {
         mBarChart.setScaleEnabled(false);
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         List<BarEntry> barEntries=new ArrayList<>();
+        Random rand=new Random();
+
         for(int i=0;i<12;i++)
         {
-            barEntries.add(new BarEntry(i,i));
+                int h=Math.abs(rand.nextInt());
+                h=h%15;
+            barEntries.add(new BarEntry(h,h));
         }
 
         BarDataSet barDataSet=new BarDataSet(barEntries,"Growth");

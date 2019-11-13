@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.muhammadzain.myapplication">
 
     <application
@@ -11,7 +12,9 @@
         android:theme="@style/AppTheme">
         <activity android:name=".AddIngrediante"></activity>
         <activity android:name=".Addinventory" />
+        <activity android:name=".GraphActivity" />
         <activity android:name=".Pakistani" />
+        <activity android:name=".ReportPage" />
         <activity android:name=".AddUser" />
         <activity android:name=".Login" />
         <activity android:name=".Adder" />
