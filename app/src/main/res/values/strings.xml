@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="app_name">My Application</string>
+    <string name="monthly_sales_report">Monthly Sales Report</string>
+    <string name="daily_sales_report">Daily Sales Report</string>
+    <string name="start_date">start_date</string>
+    <string name="end_date">end date</string>
+    <string name="bar_chart">BAR CHART</string>
+    <string name="table">TABLE</string>
+    <string name="profit_profit">Profit Profit</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="fast_dishes">
+        <item>Chicken Burger</item>
+        <item>Pizza</item>
+        <item>Shawarma</item>
+        <item>Beef Burger</item>
+    </string-array>
+
+    <string-array name="fast_prices">
+        <item>Rs 300</item>
+        <item>Rs 1000</item>
+        <item>Rs 150</item>
+        <item>Rs 500</item>
+    </string-array>
+
+    <string-array name="cont_dishes">
+        <item>Chicken Karahi</item>
+        <item>Mutton Karahi</item>
+        <item>Chicken Achari Handi</item>
+        <item>Chicken Biryani</item>
+    </string-array>
+
+    <string-array name="cont_prices">
+        <item>Rs 1200</item>
+        <item>Rs 1800</item>
+        <item>Rs 900</item>
+        <item>Rs 350</item>
+    </string-array>
+
+    <string-array name="chinese_dishes">
+        <item>Egg Fried Rice</item>
+        <item>Chicken Manchurian</item>
+        <item>Chicken Chowmein</item>
+        <item>Black Pepper Chicken</item>
+    </string-array>
+
+    <string-array name="chinese_prices">
+        <item>Rs 600</item>
+        <item>Rs 800</item>
+        <item>Rs 500</item>
+        <item>Rs 799</item>
+    </string-array>
+    <string name="title_activity_confirmorder">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
